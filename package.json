@@ -1,0 +1,14 @@
+{
+  "name": "webpack-academy-one",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sean Larkin <sean.larkin@cuw.edu>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10"
+  }
+}
