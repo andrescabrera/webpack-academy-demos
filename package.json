@@ -5,7 +5,8 @@
   "author": "Sean Larkin <sean.larkin@cuw.edu>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "devDependencies": {
     "webpack": "^4.1.1",
