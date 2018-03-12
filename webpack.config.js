@@ -18,7 +18,18 @@ module.exports = {
                  "style-loader",
                  "css-loader"
                ]
-             }
+             },
+	     {
+	       test: /\.jpeg$/,
+               use: [
+                 { 
+                   loader: "url-loader", 
+                   options: {
+                     limit: 10000
+                   } 
+		 } 
+	       ]
+	     }
     ]
   },
   mode: "development" 
